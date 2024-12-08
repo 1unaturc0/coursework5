@@ -1,0 +1,113 @@
+.orderContainer {
+	max-width: 600px;
+	margin: 50px auto;
+	padding: 20px;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	background-color: #fefefe;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.orderContainer h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.orderForm {
+	display: flex;
+	flex-direction: column;
+}
+
+.orderForm select,
+.orderForm button {
+	margin-bottom: 15px;
+	padding: 10px;
+	font-size: 14px;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+}
+
+.foodOptions {
+	margin-bottom: 15px;
+}
+
+.foodOptions p {
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+
+.foodOptions label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+.orderForm button {
+	background-color: #28a745;
+	color: white;
+	cursor: pointer;
+}
+
+.orderForm button:hover {
+	background-color: #218838;
+}
+
+.orderForm .errorMessage {
+	color: red;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.orderForm .successMessage {
+	color: green;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.clientOrders {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	font-family: Arial, sans-serif;
+}
+
+.clientOrders h1 {
+	text-align: center;
+	color: #333;
+}
+
+.clientOrders .errorMessage {
+	color: red;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.orderList {
+	list-style: none;
+	padding: 0;
+}
+
+.orderItem {
+	border: 1px solid #ddd;
+	padding: 15px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	background-color: #f9f9f9;
+}
+
+.orderItem p {
+	margin: 5px 0;
+}
+
+.deleteButton {
+	background-color: #d9534f;
+	color: white;
+	border: none;
+	padding: 10px 15px;
+	cursor: pointer;
+	border-radius: 5px;
+	transition: background-color 0.3s;
+}
+
+.deleteButton:hover {
+	background-color: #c9302c;
+}
